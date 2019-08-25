@@ -40,7 +40,7 @@ function addTodo(){
     saveToStorage();
 }
 
-buttonElement.onclick = addTodo;//chama função
+buttonElement.onclick = addTodo;
 
 function delTodo(pos){
     todos.splice(pos, 1);//apartir da posição, remove prox item
